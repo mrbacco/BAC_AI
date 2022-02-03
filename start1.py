@@ -19,7 +19,7 @@ print("Directory Path:", path)
 
 ##### OPENING A FILE AND RECORDING START #####
 file = "rec002.wav"
-result = open("recognized.txt", "a")
+result = open("output.txt", "a")
 
 # initialize the recognizer
 r = sr.Recognizer()
